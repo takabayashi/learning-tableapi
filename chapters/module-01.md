@@ -1,4 +1,4 @@
-## Módulo 1: Introdução ao Apache Flink e à Table API
+## Módulo 1: Introdução ao Apache Flink e Table API
 
 Bem-vindo ao primeiro módulo do nosso curso sobre a Table API do Apache Flink! Neste módulo, vamos explorar os fundamentos do Apache Flink, entender o que é a Table API, como configurar seu ambiente de desenvolvimento e como o Flink se integra com a plataforma Confluent, especialmente quando se trata de Kafka.
 

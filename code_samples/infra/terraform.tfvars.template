@@ -1,0 +1,3 @@
+confluent_cloud_api_key    = "XXXXXXXXX"
+confluent_cloud_api_secret = "XXXXXXXXXXXXXXXXXXXXXXXXXXX"
+prefix                     = "LearningFlink-"
