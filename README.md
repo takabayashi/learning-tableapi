@@ -6,8 +6,9 @@ Bem-vindo ao repositório oficial do nosso curso completo sobre Apache Flink, co
 🇧🇷 Este curso é totalmente em **Português do Brasil**.
 
 [![Apache Flink](https://img.shields.io/badge/Apache%20Flink-1.19+-E6526F?logo=apacheflink&logoColor=white)](https://flink.apache.org/)
-[![License](https://img.shields.io/badge/License-PENDING-blue)](#licença) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md) ---
+[![License](https://img.shields.io/badge/License-PENDING-blue)](#licença) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md) 
 
+---
 ## 🎯 Sobre Este Curso
 
 No mundo atual, a capacidade de processar e analisar vastos volumes de dados em tempo real é crucial. O Apache Flink se destaca como uma plataforma líder para esses desafios, e este curso tem como objetivo principal capacitar você a utilizar a **Table API e o SQL do Flink** de forma eficaz e produtiva.
@@ -89,22 +90,14 @@ Sua contribuição é muito bem-vinda! Se você encontrar erros, tiver sugestõe
 1.  Abra uma **Issue** para discutir a mudança ou reportar o erro.
 2.  Se desejar, faça um **Fork** do repositório, crie um *branch* com suas modificações e submeta um **Pull Request**.
 
-Consulte nosso arquivo `CONTRIBUTING.md` (se você criar um) para mais detalhes sobre como contribuir.
+Consulte nosso arquivo [CONTRIBUTING.md](./CONTRIBUTING.md) para mais detalhes sobre como contribuir.
 
 ---
 
 ## 📜 Licença
 
-*(Adicione aqui a licença sob a qual você está disponibilizando este material. Ex: MIT, Apache 2.0, etc.)*
-
-Exemplo:
-Este projeto está licenciado sob a Licença MIT - veja o arquivo `LICENSE.md` (a ser criado) para detalhes.
+Este projeto está licenciado sob a Licença Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) - veja o arquivo [LICENSE.md](./LICENSE.md) para detalhes.
 
 ---
 
 Agradecemos seu interesse e esperamos que este curso seja um divisor de águas na sua jornada com Apache Flink!
-```
-
-Agora a seção "Estrutura do Curso" tem links que devem funcionar se você organizar seus arquivos Markdown conforme o padrão `chapters/module-XX.md`. O link para a introdução também foi adicionado como `chapters/module-00.md`.
-
-Acho que com isso seu `README.md` está pronto para receber os leitores no GitHub!

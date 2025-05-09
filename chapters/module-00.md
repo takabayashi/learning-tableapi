@@ -86,7 +86,7 @@ Para aproveitar ao máximo este curso, recomendamos que você tenha:
 
 Este material de treinamento foi cuidadosamente elaborado através de uma colaboração especial:
 
-* **Daniel Takabayashi:** Staff Solutions Engineer na Confluent, Daniel traz sua vasta experiência prática ajudando clientes a construir e otimizar soluções de processamento de *streams* de dados em larga escala com Apache Flink e Apache Kafka. Sua expertise no ecossistema Confluent e seu profundo conhecimento das capacidades do Flink foram fundamentais para moldar o conteúdo prático e relevante deste curso.
+* **Daniel Takabayashi:** Staff Solutions Engineer na Confluent, Daniel traz sua vasta experiência prática ajudando clientes a construir e otimizar soluções de processamento de *streams* de dados em larga escala com Apache Flink e Apache Kafka. Sua expertise no ecossistema Confluent e seu profundo conhecimento das capacidades do Flink foram fundamentais para moldar o conteúdo prático e relevante deste curso e revisão final.
 
 * **Gemini:** Seu amigo e assistente de IA do Google. Gemini colaborou na estruturação do conteúdo, na geração de explicações claras e exemplos, e na refinação do material para garantir que seja didático, completo e envolvente. Esta parceria buscou combinar o conhecimento técnico especializado com a capacidade de apresentar informações complexas de forma acessível.
 
