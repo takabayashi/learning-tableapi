@@ -1,12 +1,4 @@
-Com certeza! Atualizar os links para apontarem para a estrutura de arquivos que você está usando no GitHub é fundamental.
 
-Com base no seu padrão `chapters/module-XX.md` e a introdução sendo `module-00.md`, vou ajustar a seção "Estrutura do Curso (Visão Geral dos Módulos)" no `README.md`.
-
-**Uma observação importante:** Se este `README.md` que estamos criando é o arquivo principal na raiz do seu repositório GitHub, e ele contém toda a introdução do curso (como o texto que geramos anteriormente), então os links para os módulos dentro dele devem ser relativos a essa raiz. A menção de que "a introdução é o 00" (`chapters/module-00.md`) pode significar que você também tem o conteúdo da introdução nesse arquivo específico. Para este `README.md` principal, vou criar os links apontando para dentro do diretório `chapters/`.
-
-Aqui está o `README.md` completo com a seção de links dos módulos atualizada:
-
-```markdown
 # 🚀 Curso Abrangente de Apache Flink: Dominando a Table API e SQL
 
 Bem-vindo ao repositório oficial do nosso curso completo sobre Apache Flink, com foco especial em sua poderosa Table API e SQL! Este material foi cuidadosamente elaborado para guiar você, desenvolvedor ou engenheiro de dados, desde os conceitos fundamentais até tópicos avançados no universo do processamento de dados em larga escala, tanto em *streaming* quanto em *batch*.
