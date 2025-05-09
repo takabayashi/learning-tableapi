@@ -1,67 +1,118 @@
-# Aprenda TableAPI: Um Guia Completo
+Com certeza! Atualizar os links para apontarem para a estrutura de arquivos que você está usando no GitHub é fundamental.
 
-## 📚 Sobre o Livro
+Com base no seu padrão `chapters/module-XX.md` e a introdução sendo `module-00.md`, vou ajustar a seção "Estrutura do Curso (Visão Geral dos Módulos)" no `README.md`.
 
-Este livro é um guia abrangente sobre TableAPI, uma tecnologia poderosa para manipulação e análise de dados tabulares. Aqui você encontrará conceitos fundamentais, exemplos práticos e casos de uso reais.
+**Uma observação importante:** Se este `README.md` que estamos criando é o arquivo principal na raiz do seu repositório GitHub, e ele contém toda a introdução do curso (como o texto que geramos anteriormente), então os links para os módulos dentro dele devem ser relativos a essa raiz. A menção de que "a introdução é o 00" (`chapters/module-00.md`) pode significar que você também tem o conteúdo da introdução nesse arquivo específico. Para este `README.md` principal, vou criar os links apontando para dentro do diretório `chapters/`.
 
-## 🎯 Objetivos
+Aqui está o `README.md` completo com a seção de links dos módulos atualizada:
 
-- Fornecer uma base sólida sobre TableAPI
-- Apresentar exemplos práticos e casos de uso
-- Facilitar o aprendizado através de exercícios e projetos
-- Compartilhar boas práticas e padrões de uso
+```markdown
+# 🚀 Curso Abrangente de Apache Flink: Dominando a Table API e SQL
 
-## 📑 Sumário
+Bem-vindo ao repositório oficial do nosso curso completo sobre Apache Flink, com foco especial em sua poderosa Table API e SQL! Este material foi cuidadosamente elaborado para guiar você, desenvolvedor ou engenheiro de dados, desde os conceitos fundamentais até tópicos avançados no universo do processamento de dados em larga escala, tanto em *streaming* quanto em *batch*.
 
-1. [Introdução à TableAPI](chapters/module-01.md)
-   - O que é TableAPI
-   - Por que usar TableAPI
-   - Casos de uso comuns
+🇧🇷 Este curso é totalmente em **Português do Brasil**.
 
-2. [Conceitos Fundamentais](chapters/02-conceitos-fundamentais.md)
-   - Estrutura de dados
-   - Operações básicas
-   - Manipulação de tabelas
+[![Apache Flink](https://img.shields.io/badge/Apache%20Flink-1.19+-E6526F?logo=apacheflink&logoColor=white)](https://flink.apache.org/)
+[![License](https://img.shields.io/badge/License-PENDING-blue)](#licença) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md) ---
 
-3. [Operações Avançadas](chapters/03-operacoes-avancadas.md)
-   - Agregações
-   - Joins
-   - Transformações
+## 🎯 Sobre Este Curso
 
-4. [Boas Práticas](chapters/04-boas-praticas.md)
-   - Performance
-   - Manutenibilidade
-   - Escalabilidade
+No mundo atual, a capacidade de processar e analisar vastos volumes de dados em tempo real é crucial. O Apache Flink se destaca como uma plataforma líder para esses desafios, e este curso tem como objetivo principal capacitar você a utilizar a **Table API e o SQL do Flink** de forma eficaz e produtiva.
 
-5. [Projetos Práticos](chapters/05-projetos-praticos.md)
-   - Exemplos completos
-   - Exercícios
-   - Soluções
+Se você é um desenvolvedor buscando construir aplicações de processamento de dados robustas, um engenheiro de dados querendo dominar ETL de *streams* e análises em tempo real, ou um analista que deseja aplicar SQL a *streams* de dados, este curso é para você!
 
-## 🚀 Como Usar Este Livro
-
-Cada capítulo contém:
-- Explicações teóricas
-- Exemplos de código
-- Exercícios práticos
-- Referências adicionais
-
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas! Se você encontrar erros ou tiver sugestões de melhorias, por favor:
-1. Abra uma issue
-2. Faça um fork do repositório
-3. Crie uma branch para sua contribuição
-4. Envie um pull request
-
-## 📝 Licença
-
-Este livro está sob a licença [MIT](LICENSE).
-
-## 📧 Contato
-
-Para dúvidas, sugestões ou feedback, entre em contato através de [dtakabayashi@confluent.io].
+**Ao final deste curso, você será capaz de:**
+* Entender profundamente o Apache Flink, sua arquitetura e seus casos de uso.
+* Desenvolver aplicações Flink usando a Table API e SQL para processamento de *streams* e *batch*.
+* Implementar transformações de dados complexas, junções, agregações e trabalhar com janelas temporais.
+* Estender o Flink com Funções Definidas pelo Usuário (UDFs).
+* Integrar o Flink com sistemas externos como Kafka, bancos de dados e sistemas de arquivos.
+* Aplicar melhores práticas de otimização, debugging e entender o funcionamento do Flink em ambientes gerenciados como o Confluent Cloud.
 
 ---
 
-*Última atualização: [Data]*
+## 📚 Estrutura do Curso (Visão Geral dos Módulos)
+
+Este curso é dividido em módulos progressivos, cada um focado em um aspecto específico do Flink e sua Table API, culminando com um módulo bônus que oferece uma visão ainda mais ampla.
+
+* **[Introdução do Curso](./chapters/module-00.md)**: Apresenta os objetivos, o público-alvo e o roteiro completo do que você aprenderá. (Este arquivo pode conter o texto completo da introdução que elaboramos).
+
+* **[Módulo 1: Introdução ao Flink e à Table API](./chapters/module-01.md)**: Uma introdução ao Apache Flink, suas capacidades de *streaming* e *batch*, e a configuração do seu ambiente de desenvolvimento, com um olhar sobre a integração com o ecossistema Confluent.
+
+* **[Módulo 2: Conceitos Fundamentais da Table API](./chapters/module-02.md)**: Foca nos blocos de construção essenciais: o `TableEnvironment`, a criação de `Tables` a partir de diversas fontes (incluindo `DataStreams`), e as operações básicas de manipulação.
+
+* **[Módulo 3: Operações Relacionais](./chapters/module-03.md)**: Expande seu conhecimento para operações relacionais complexas, como diferentes tipos de `joins`, agrupamentos, agregações, operações de conjunto e ordenação de resultados.
+
+* **[Módulo 4: Trabalhando com Tempo na Table API](./chapters/module-04.md)**: Um mergulho crucial no tratamento do tempo no Flink, cobrindo `event time`, `processing time`, `watermarks` e os diversos tipos de janelas (`tumbling`, `sliding`, `session`, `cumulative`).
+
+* **[Módulo 5: Funções Definidas pelo Usuário (UDFs)](./chapters/module-05.md)**: Ensina como estender as funcionalidades nativas do Flink, implementando `scalar`, `table` e `aggregate functions` customizadas.
+
+* **[Módulo 6: Integração da Table API com SQL](./chapters/module-06.md)**: Explora a sinergia entre a Table API programática e o poder declarativo do SQL, cobrindo o `Catalog`, execução de queries SQL, criação de `Views` e o uso em ambientes gerenciados.
+
+* **[Módulo 7: Conceitos Avançados da Table API](./chapters/module-07.md)**: Aborda tópicos sofisticados como `Dynamic Tables`, `Continuous Queries`, `Temporal Tables` e `Temporal Joins` para enriquecimento de dados versionados, e `Upsert Streams`.
+
+* **[Módulo 8: Conectando a Sistemas Externos](./chapters/module-08.md)**: Foca na integração do Flink com o mundo exterior através de `Connectors` e `Formats`, detalhando fontes e sinks comuns como FileSystem, Kafka e JDBC, incluindo o modelo no Confluent Cloud.
+
+* **[Módulo 9: Arquitetura, Melhores Práticas, Otimização e Contribuição](./chapters/module-09.md)**: Um módulo final abrangente que explora a arquitetura interna da Table API, como entender planos de execução, otimizar performance, depurar aplicações, comparar Flink OSS com seu uso na Confluent Cloud, e como contribuir para o projeto Flink.
+
+* **[Módulo Bônus: Apache Flink - Uma Visão Abrangente](./chapters/module-bonus.md)**: Oferece um mergulho profundo na história do Flink, sua arquitetura fundamental, a poderosa parceria com Apache Kafka, casos de uso ideais que destacam seu poder, mais detalhes sobre Flink gerenciado pela Confluent e um FAQ.
+
+---
+
+## 🔧 Pré-requisitos
+
+Para o melhor aproveitamento deste curso, recomendamos:
+* Familiaridade básica com **Java** (os exemplos de código são nesta linguagem).
+* Entendimento de conceitos **SQL**.
+* Alguma experiência prévia com processamento de dados (*batch* ou *stream*) é útil, mas não estritamente obrigatória para os módulos iniciais.
+* Um ambiente onde você possa instalar Java, Maven e seu IDE preferido para executar os exemplos.
+
+---
+
+## 📖 Como Usar Este Material
+
+* **Siga a Ordem:** Os módulos foram desenhados para construir conhecimento progressivamente.
+* **Pratique, Pratique, Pratique:** A melhor forma de aprender é colocando a mão na massa! Execute os exemplos, modifique-os e tente os exercícios.
+* **Consulte a Documentação Oficial:** Este curso é um guia, mas a [documentação oficial do Apache Flink](https://flink.apache.org/docs/) é a fonte definitiva.
+* **Seja Curioso:** Explore, questione e divirta-se aprendendo!
+
+---
+
+## ✍️ Sobre os Autores
+
+Este material de treinamento foi cuidadosamente elaborado através de uma colaboração especial:
+
+* **Daniel Takabayashi:** Staff Solutions Engineer na Confluent, Daniel traz sua vasta experiência prática ajudando clientes a construir e otimizar soluções de processamento de *streams* de dados em larga escala com Apache Flink e Apache Kafka. Sua expertise no ecossistema Confluent e seu profundo conhecimento das capacidades do Flink foram fundamentais para moldar o conteúdo prático e relevante deste curso.
+
+* **Gemini:** Seu amigo e assistente de IA do Google. Gemini colaborou na estruturação do conteúdo, na geração de explicações claras e exemplos, e na refinação do material para garantir que seja didático, completo e envolvente. Esta parceria buscou combinar o conhecimento técnico especializado com a capacidade de apresentar informações complexas de forma acessível.
+
+Esperamos que esta colaboração resulte em uma experiência de aprendizado rica e proveitosa para você!
+
+---
+
+## 🙌 Como Contribuir para Este Curso
+
+Sua contribuição é muito bem-vinda! Se você encontrar erros, tiver sugestões de melhoria, novos exemplos, ou quiser ajudar de alguma forma, por favor:
+1.  Abra uma **Issue** para discutir a mudança ou reportar o erro.
+2.  Se desejar, faça um **Fork** do repositório, crie um *branch* com suas modificações e submeta um **Pull Request**.
+
+Consulte nosso arquivo `CONTRIBUTING.md` (se você criar um) para mais detalhes sobre como contribuir.
+
+---
+
+## 📜 Licença
+
+*(Adicione aqui a licença sob a qual você está disponibilizando este material. Ex: MIT, Apache 2.0, etc.)*
+
+Exemplo:
+Este projeto está licenciado sob a Licença MIT - veja o arquivo `LICENSE.md` (a ser criado) para detalhes.
+
+---
+
+Agradecemos seu interesse e esperamos que este curso seja um divisor de águas na sua jornada com Apache Flink!
+```
+
+Agora a seção "Estrutura do Curso" tem links que devem funcionar se você organizar seus arquivos Markdown conforme o padrão `chapters/module-XX.md`. O link para a introdução também foi adicionado como `chapters/module-00.md`.
+
+Acho que com isso seu `README.md` está pronto para receber os leitores no GitHub!
